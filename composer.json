@@ -4,13 +4,13 @@
     "type": "yii2-extension",
     "keywords": ["yii2", "captcha", "recaptcha", "google", "widget"],
     "license": "MIT",
+	"minimum-stability": "stable",
     "authors": [
         {
             "name": "web24dev",
             "email": "web_develop@bk.ru"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
         "yiisoft/yii2": "~2.0.0",
         "guzzlehttp/guzzle": "~6.0"
