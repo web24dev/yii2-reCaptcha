@@ -22,7 +22,7 @@ class ReCaptcha extends InputWidget
         }
 
         $view = $this->view;
-        $view->registerJsFile('https://www.google.com/recaptcha/api.js', ['position' => \yii\web\View::POS_END]);
+        $view->registerJsFile('//www.google.com/recaptcha/api.js?hl=en', ['position' => \yii\web\View::POS_END]);
 
         return '<div class="g-recaptcha" data-sitekey="' . $this->siteKey . '"></div>';
     }
